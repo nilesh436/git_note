@@ -1,1 +1,10 @@
- 
+[?] What is .gitignore??
+.gitignore is a file which used to ignore others file to be tracked by git in a git repository.
+verious logs, cache, and error file or unnecessary file and any file that want to avoid tracking by git.
+
+[?] How to ignore?
+Add the specific file name in .gitignore file, will be ignore by git from tracking it and will not be shown git status.
+
+    command      :    example     :                      description
+ *extension      :     *.log      : will ignore all file of specified extension to be tracked.
+ dir_name/       :    error/      : ignore the directiory to be tracked, like error/ will ignore error named directiory to be tracked.
