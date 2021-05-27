@@ -1,8 +1,10 @@
-## "Git_tut" directory and it's a git repository.
+## "git_tut" directory and it's a git repository.
 
-[+] This directory "Git_tut" is created for practice git and github.
-[+] "The_tutorial" directory contain all notes and command file about git.
+[+] This directory "git_tut" is created for practice git and github.
+[+] "The_tutorial" directory contain all notes and command file about       
+    git.
 
-[!] Except README file and "The_tutorial" directory, every folder and file
-    in this "Git_tut" directory is just for testing.
+[!] Except README file and "The_tutorial" directory, every folder and   
+    file in this "Git_tut" directory is just for testing.
+    
 ** Warning ** Please even accidentally don't delete README file and "The_tutorial" directory.
