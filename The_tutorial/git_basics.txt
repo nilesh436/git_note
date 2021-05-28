@@ -1,8 +1,13 @@
-git status    : Check the status of git Reopsitory
-git init      : Initialze git Repository, creat a new Repository.
-git log       : Show a snapshot, previous changes, commit of a             
-                relpository.
-git add --a   : Add changes to staging area for commit. -a refer to all changes.
-git commit    : Commit changes, ifnal comit/region. Example, git    
-                commit -a "Commit massage"
-git clone     : Clone a repository into local machine or storage.
+git status        : Check the status of git Reopsitory
+git init          : Initialze git Repository, creat a new Repository.
+git log           : Show a snapshot, previous changes, commit of a
+                    relpository.
+git add --a       : Add changes to staging area for commit. -a refer to all changes.
+git commit        : Commit changes, ifnal comit/region. Example, git
+                    commit -a "Commit massage"
+git clone         : Clone a repository into local machine or storage.
+
+git diff          : git diff compare working directory and staging area.
+
+git diff --staged : Compare between staging area and old or previous
+                    commit.
