@@ -11,3 +11,7 @@ git diff          : git diff compare working directory and staging area.
 
 git diff --staged : Compare between staging area and old or previous
                     commit.
+git commit -a -m  : Command used for direct commit. It will skip staging
+                    processes or can be say this alone do staged and commit.
+                    Untracked file will not be commited in working stage. Only
+                    tracked file will commited.
