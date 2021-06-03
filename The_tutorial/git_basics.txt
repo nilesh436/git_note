@@ -15,3 +15,11 @@ git commit -a -m  : Command used for direct commit. It will skip staging
                     processes or can be say this alone do staged and commit.
                     Untracked file will not be commited in working stage. Only
                     tracked file will commited.
+git rm <file>     : Delete file and add it to staging area.
+git mv            : Rename and move file and add it directly on staging area
+
+[+] Difference between normal deletation and git rm deletation
+    A file can be delete both manually and by git. But manually deletation
+    doesn't stage for commit so have to manually staged. Git deletation
+    remove the file and staged for commit with it.
+
