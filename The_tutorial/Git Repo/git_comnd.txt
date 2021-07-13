@@ -1,0 +1,40 @@
+
+Git is a version controle system
+
+=> Easily recover files
+=> Who introduce an issue and when
+=> Roll back to previously working state
+=> Capture Snapshot, not difference
+=> Almost every operation is local
+=> Git has integrity
+=> Git generally only add data
+
+~~~~~~~~~~~~ GIT COMMAND REFERENCE ~~~~~~~~~~~~~~
+[+] Git user setup
+    git config --global user.name "Name" >> This command set user name for git.
+    git config --global user.email "Email" >> This command set user email address to git of this user.
+    
+[+] git status >> Check git repository or not and check repository condition and tracking directory and files.
+
+[+] git init >> Initialized Git repository, it's change a folder to git repository.
+
+[+] git add --a >> This command get all files to staging state.
+    git add "file name" >> This will add only the file mentioned to the staging area.
+
+[+] git commit -m "A massage for the changes" >> This command commits, meant by save the changes and take a Snapshot with the tracking of changes into file, 
+    folder etc.
+
+[+] git log >> This command show all previous commits and commit made by, commits time and a hash value of the commit.
+
+**
+   rm -rf .git >> This command remove the .git file and make it a ganeral folder. This command is very dangerous command because it's delete everything.
+**
+
+[+] git clone "url" >> This command clone a repository from github.
+
+>> @important(video 7)------------
+[+] .gitignore >> .gitignore is a specific type of file. It used to ignore specific type of file in git repository from being tracking that not necessary.
+    How to use: Specifies the file name(i.e error.log) in the .gitignore file and save it. It will ignore this error.log file to track.
+    "*.file extension name" i.e "*.log" will ignore all file with specific extension. Like above "*.log" command will ignore all file with .log extension that will be generate.
+
+>> -------------------------------
